@@ -7,35 +7,24 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ussername"
+        android:text="no 1"
         android:textSize="20dp"/>
     <EditText
-        android:id="@+id/uname"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/no1"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="password"
+        android:text="no 2"
         android:textSize="20dp"/>
     <EditText
-        android:id="@+id/pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"/>
-    <Button
-        android:id="@+id/login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="login"/>
+        android:id="@+id/no2"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/regi"
-        android:text="register"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="next app"
-        android:id="@+id/nxtap"/>
+        android:id="@+id/cal"
+        android:text="calculator"/>
 </LinearLayout>
