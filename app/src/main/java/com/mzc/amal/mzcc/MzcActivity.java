@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class MzcActivity extends AppCompatActivity {
 EditText ed1,ed2;
-    Button b,b11,b12;
+    Button b,b11,b12,b13;
     String getusername,getpassword;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +21,7 @@ EditText ed1,ed2;
         b=(Button)findViewById(R.id.login);
         b11=(Button)findViewById(R.id.regi);
         b12=(Button)findViewById(R.id.nxtap);
+        b13=(Button)findViewById(R.id.viewuser);
 
        b.setOnClickListener(new View.OnClickListener() {
            @Override
@@ -43,6 +44,13 @@ EditText ed1,ed2;
             public void onClick(View view) {
                 Intent l=new Intent(getApplicationContext(),calculator.class);
                 startActivity(l);
+            }
+        });
+        b13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent b=new Intent(getApplicationContext(),viewuseractivity.class);
+                startActivity(b);
             }
         });
     }
